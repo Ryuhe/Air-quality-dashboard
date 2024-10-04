@@ -12,8 +12,9 @@ st.markdown(
 st.write("")
 
 # Load the data
-file_kota1 = "D:/1. KULIAH/s7/BANGKIT/1/PRSA_Data_20130301-20170228/PRSA_Data_Shunyi_20130301-20170228.csv"
-file_kota2 = "D:/1. KULIAH/s7/BANGKIT/1/PRSA_Data_20130301-20170228/PRSA_Data_Dongsi_20130301-20170228.csv"
+file_kota1 = "https://raw.githubusercontent.com/Ryuhe/Air-quality-dashboard/refs/heads/main/PRSA_Data_Shunyi_20130301-20170228.csv"
+file_kota2 = "https://raw.githubusercontent.com/Ryuhe/Air-quality-dashboard/refs/heads/main/PRSA_Data_Dongsi_20130301-20170228.csv"
+
 
 df_kota1 = pd.read_csv(file_kota1)
 df_kota2 = pd.read_csv(file_kota2)
